@@ -17,6 +17,7 @@ qrencode -o lhswifi.png -l M 'WIFI:T:WPA;S:LondonHackspace;P:DFDE595F79;;'
 
 # The fields divided by commas (,) denote PO box, room number, house number,
 # city, prefecture, zip code and country, in order.
+
 # TEL:+442076135391;\
 
 qrencode -o lhsvcard.png -l M 'MECARD:\
