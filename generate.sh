@@ -4,24 +4,13 @@
 qrencode -o lhswifi.png -l M 'WIFI:T:WPA;S:LondonHackspace;P:DFDE595F79;;'
 
 # vcard:
-
 # 
-# Laboratory 24
-# 37 Cremer Street, E2 8HD
-#
-# London Hackspace: Laboratory 24
-# Units 23 & 24
-# Cremer Business Centre
-# 37 Cremer Street
-# London E2 8HD 
-
 # The fields divided by commas (,) denote PO box, room number, house number,
 # city, prefecture, zip code and country, in order.
 
-# TEL:+442076135391;\
-
 qrencode -o lhsvcard.png -l M 'MECARD:\
 N:London Hackspace;\
+TEL:+442070339080;\
 ADR:London Hackspace,,447 Hackney Road,London,London,E2 9DY,GB;\
 URL:https://london.hackspace.org.uk/;\
 URL:https://wiki.london.hackspace.org.uk/view/London_Hackspace;;'
